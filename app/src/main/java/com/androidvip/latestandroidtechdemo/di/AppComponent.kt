@@ -16,7 +16,6 @@ interface AppComponent {
         fun application(application:LatestApplication): Builder
 
         fun build(): AppComponent
-        //Test
     }
 
     fun inject (app:LatestApplication)
